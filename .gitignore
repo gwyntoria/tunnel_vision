@@ -1,9 +1,10 @@
-**/.DS_Store
+.DS_Store
 
-/.vscode/
-/.codex/
+.tmp/
 
-/node_modules/
-/package-lock.json
+.vscode/
+.codex/
+.agents/
 
-/Skill-Guide/
+node_modules/
+package-lock.json
