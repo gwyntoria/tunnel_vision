@@ -11,7 +11,9 @@
   "author": "Gwyntoria",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "format:md": "markdownlint-cli2 --fix && textlint --fix --ignore-path .gitignore \"**/*.md\""
+  },
   "devDependencies": {
     "markdownlint-cli2": "^0.22.1",
     "textlint": "^15.6.1",
